@@ -189,6 +189,20 @@ footer .social-links a:hover {
   }
 }
 
+@media (max-width: 380px) {
+  .brand-mark {
+    height: 26px;
+  }
+  .brand {
+    font-size: 0.98rem;
+    gap: 8px;
+  }
+  .nav-cta {
+    padding: 9px 14px;
+    font-size: 0.82rem;
+  }
+}
+
 #mobile-menu {
   border-top: 1px solid var(--line);
   padding: 8px 0 16px;
@@ -225,6 +239,26 @@ footer .social-links a:hover {
   grid-template-columns: 1.1fr 0.9fr;
   gap: 56px;
   align-items: center;
+}
+
+@media (max-width: 860px) {
+  .hero {
+    padding-block: 44px 48px;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+  .hero-grid .eyebrow {
+    justify-content: center;
+  }
+  .hero p.lede {
+    margin-inline: auto;
+  }
+  .hero-ctas {
+    justify-content: center;
+  }
 }
 
 .eyebrow {
@@ -307,7 +341,7 @@ footer .social-links a:hover {
 .hero-figure {
   position: relative;
   aspect-ratio: 1 / 1;
-  max-width: 420px;
+  max-width: min(420px, 82vw);
   margin-inline: auto;
 }
 #wheel-canvas {
