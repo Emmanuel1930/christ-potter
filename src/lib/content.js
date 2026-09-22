@@ -4,7 +4,7 @@ export const church = {
   branch: "Ile Ife",
   tagline: "You are the clay. He is the Potter.",
   vision: "Teaching men to walk in the reality of who Christ is.",
-  address: "Upper Floor, PHCN Office, Off Fajuyi Road, Ile Ife, Osun State",
+  address: "Church Auditorium, Upper Floor, 76B PHCN Office, Off Fajuyi Road, Ile Ife, Osun State",
   facebook: "@ChristThePotterChurch",
   facebookUrl: "https://facebook.com/ChristThePotterChurch",
   youtubeUrl: "https://youtube.com/@ChristThePotterChurch",
@@ -73,21 +73,26 @@ export const pastor = {
 };
 
 export const event = {
-  name: "Realised Destiny Summit 2025",
-  theme: "Running the race that is set before you — Hebrews 12:1",
-  dateRange: "22nd – 24th May, 2025",
+  name: "Kingdom Young Ministers Conference 2026",
+  edition: "2.0",
+  theme: "The Man That God Can Work With",
+  dateRange: "September 24th – 26th, 2026",
   schedule: [
-    { days: "Thursday – Friday", time: "5:00 P.M." },
-    { days: "Saturday", time: "10:00 A.M." },
+    { days: "Thursday", time: "5:00 PM" },
+    { days: "Friday", time: "5:00 PM" },
+    { days: "Saturday", time: "10:00 AM" },
   ],
-  venue: "Upper Floor, PHCN Office, Off Fajuyi Road, Ile Ife",
-  host: "Apostle Oluwafunminiyi",
+  venue: "Church Auditorium, 76B PHCN Office, Off Fajuyi Road, Ile Ife",
+  host: "Apostle Oluwafunminiyi Olufisayo",
+  ministering: "Apostle Oluwafunminiyi Olufisayo and other anointed ministers",
+  enquiries: ["0703 937 8043", "0816 377 6464"],
+  strapline: "Come for an encounter with Jesus",
 };
 
 export const visitInfo = [
   {
     title: "Address",
-    lines: ["Upper Floor, PHCN Office, Off Fajuyi Road, Ile Ife, Osun State"],
+    lines: ["Church Auditorium, Upper Floor, 76B PHCN Office, Off Fajuyi Road, Ile Ife, Osun State"],
     icon: "pin",
   },
   {

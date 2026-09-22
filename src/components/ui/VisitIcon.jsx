@@ -27,6 +27,14 @@ const paths = {
       <path d="m4 7 8 6 8-6" stroke="currentColor" strokeWidth="1.5" />
     </>
   ),
+  phone: (
+    <path
+      d="M6.5 4h2.8l1.2 4-2 1.4a10.5 10.5 0 0 0 5.1 5.1l1.4-2 4 1.2v2.8c0 1-.9 1.7-1.8 1.5-6-1.2-10.7-5.9-11.9-11.9C4.8 4.9 5.5 4 6.5 4Z"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinejoin="round"
+    />
+  ),
 };
 
 export default function VisitIcon({ name }) {
